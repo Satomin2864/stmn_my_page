@@ -51,8 +51,13 @@ coverage.xml
 *.mo
 *.pot
 
+# vscodeの設定ファイルをgit管理はずす
+
 # Django stuff:
 *.log
+*.pot
+*.pyc
+__pycache__/
 local_settings.py
 db.sqlite3
 
